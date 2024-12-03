@@ -50,12 +50,12 @@ python funscript_converter.py -i "/path/to/my.funscript" -o "path/to/my/new.funs
 This converts the `"/path/to/my.funscript"` script into `"path/to/my/new.funscript"` using the trend option
 
 ```bash
-python funscript_converter.py -i "/path/to/my.funscript" -a "L1" -m
+python funscript_converter.py -i "/path/to/my.funscript" -a "vibe" -m
 ```
-This converts the `"/path/to/my.funscript"` script into `"path/to/my/my.L0.funscript"` using the magnitude option
+This converts the `"/path/to/my.funscript"` script into `"path/to/my/my.vibe.funscript"` using the magnitude option
 
 ```bash
-python funscript_converter.py -i "/path/to/my.funscript" -a "L1" -mp
+python funscript_converter.py -i "/path/to/my.funscript" -a "L0" -mp
 ```
 This converts the `"/path/to/my.funscript"` script into `"path/to/my/my.L0.funscript"` using the magnitude option and shows you a plot of the original and converted signal
 
